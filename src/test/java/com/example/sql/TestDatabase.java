@@ -39,8 +39,9 @@ public class TestDatabase {
         while(rs.next()){
             List<Object> list = new ArrayList<Object>();
             for(int i = 0; i < md.getColumnCount(); i++){
+                String name = md.getColumnName(i+1);
                 Object value = rs.getObject(i+1);
-                list.add(value);
+                list.add(name+"="+value);
             }
             System.out.println(list);
         }

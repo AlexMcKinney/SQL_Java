@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.sql.TestSQL" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-28T06:08:25" hostname="DESKTOP-TJ48GHI" time="0.158">
+<testsuite name="com.example.sql.TestSQL" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-28T21:21:31" hostname="DESKTOP-TJ48GHI" time="0.149">
   <properties/>
-  <testcase name="testFileSetup" classname="com.example.sql.TestSQL" time="0.156"/>
-  <testcase name="testCodeSetup" classname="com.example.sql.TestSQL" time="0.002"/>
+  <testcase name="testCodeSetup" classname="com.example.sql.TestSQL" time="0.149"/>
   <system-out><![CDATA[SELECT ID, NAME, AGE FROM BUSINESS.PEOPLE WHERE AGE >= 22
-[2, Bob, 22]
-[3, Carl, 33]
-SELECT ID, NAME, AGE FROM BUSINESS.PEOPLE WHERE AGE >= 22
-[2, Bob, 22]
-[3, Carl, 33]
+[ID=2, NAME=Bob, AGE=22]
+[ID=3, NAME=Carl, AGE=33]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
