@@ -1,0 +1,6 @@
+;SELECT ID, NAME, AGE FROM BUSINESS.PEOPLE WHERE AGE >= 22
+[2, Bob, 22]
+[3, Carl, 33]
+;SELECT ID, NAME, AGE FROM BUSINESS.PEOPLE WHERE AGE >= 22
+[2, Bob, 22]
+[3, Carl, 33]
